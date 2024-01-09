@@ -27,6 +27,8 @@ public class exos1
 //exo1.2		city2.setaddpoeple(-15000, city2);
 //exo1.2		System.out.println("resultat test si nombre saisi <= a zero.......");
 		
+		Unknow unknow1 = new Unknow("toulouse" , 15000);
+		unknow1.display();
 	}
 	
 
