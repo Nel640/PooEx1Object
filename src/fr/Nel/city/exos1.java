@@ -24,7 +24,7 @@ public class exos1
 		city2.setaddpoeple(2000 , city2);
 		System.out.println("...............................");
 		
-		city2.setaddpoeple(-35000, city2);
+		city2.setaddpoeple(-1, city2);
 		System.out.println("resultat si en <= a zero.......");
 		
 	}

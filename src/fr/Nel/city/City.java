@@ -36,9 +36,9 @@ public class City {
 	public void setaddpoeple(int nbpoeple , Object city)
 	{
 		int numpoeple = getNbpoeple() + nbpoeple;
-		if (numpoeple <= 0 )
+		if (numpoeple < getNbpoeple() )
 		{
-			System.out.println("action impossible pas de nombre en dessous ou egale a zero");
+			System.out.println("action impossible , on ne peut retirer d'habitants ");
 		}
 		else
 		{
