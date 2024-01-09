@@ -19,4 +19,14 @@ public class City {
 				"country : " + this.country + "\n" +
 				"nombre d'habitant : " + this.numberPoeple;
 	}
+	
+	public int getNbpoeple()
+	{
+		return numberPoeple;
+	}
+	
+	public int setNbpoeple(int addpoeple)
+	{
+		return this.numberPoeple = getNbpoeple() + addpoeple;
+	}
 }
