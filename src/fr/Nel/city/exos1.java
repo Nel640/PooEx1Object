@@ -9,7 +9,10 @@ public class exos1
 		City city2 = new City ( "toulouse" , "france" , 10000);
 		System.out.println(city2 + "\n");
 		City city3 = new City("osaka", "japan", 500000);
-		System.out.println(city3);
+		System.out.println(city3+ "\n");
+		
+		city1.setNbpoeple(20000);
+		System.out.println(city1);
 	}
 	
 
