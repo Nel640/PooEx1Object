@@ -6,11 +6,21 @@ public class TestCity {
 	public String country;
 	public int numberPoeple;
 	
-	public TestCity ( String city , String country , int numberPoeple)
+	private static int COUNTER = 0;
+	
+	public TestCity ( String city , String country , int numberPoeple , int count)
 	{
 		this.city = city;
 		this.country = country;
 		this.numberPoeple = numberPoeple;
+		COUNTER +=setCounter(count);
+	}
+	public int setCounter(int count) {
+		if ( count >= 0 )
+		{
+			count = 1;
+		}
+		return count;
 	}
 	
 	public int getNbpoeple()
@@ -58,5 +68,10 @@ public class TestCity {
 	public String toString()
 	{
 		return "Syso : ville de " + this.city + " a un nombre de " + this.numberPoeple + " habitants";
+	}
+	
+	public static void displayCounter()
+	{
+		System.out.println("nombre d'instance de testcity : " + COUNTER);
 	}
 }
