@@ -8,7 +8,7 @@ public class exos1
 //exo1.1		System.out.println("ville n°1 : \n" + city1 + "\n");
 //exo1.1		System.out.println("...............................");
 		
-		City city2 = new City ( "toulouse" , "france" , 10000);
+		TestCity city2 = new TestCity ( "toulouse" , "france" , 10000);
 		System.out.println("ville n°2 : \n" + city2 + "\n");
 		System.out.println("...............................");
 		
@@ -27,7 +27,10 @@ public class exos1
 //exo1.2		city2.setaddpoeple(-15000, city2);
 //exo1.2		System.out.println("resultat test si nombre saisi <= a zero.......");
 		
-		Unknow unknow1 = new Unknow("toulouse" , 15000);
+		Unknow unknow1 = new Unknow("toulouse");
+		unknow1.display();
+		unknow1.getCountry("france");
+		System.out.println("...............................");
 		unknow1.display();
 	}
 	

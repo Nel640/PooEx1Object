@@ -1,12 +1,12 @@
 package fr.Nel.city;
 
-public class City {
+public class TestCity {
 		
 	public String city;
 	public String country;
 	public int numberPoeple;
 	
-	public City ( String city , String country , int numberPoeple)
+	public TestCity ( String city , String country , int numberPoeple)
 	{
 		this.city = city;
 		this.country = country;
