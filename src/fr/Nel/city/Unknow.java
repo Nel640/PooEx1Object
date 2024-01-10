@@ -26,8 +26,13 @@ public class Unknow
 	
 	public void display()
 	{
-		System.out.println( "city : " + this.city + "\n" +
-							"type : " + country + "\n" +
-							"resident : " + this.resident);
+		System.out.println( "ville : " + this.city + "\n" +
+							"pays : " + country + "\n" +
+							"nombre d'habitants : " + this.resident);
+	}
+	// exo 1.4
+	public void display2 ()
+	{
+		System.out.println("Display : ville de " + this.city + " a un nombre de " + this.resident + " habitants");
 	}
 }

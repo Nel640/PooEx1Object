@@ -39,6 +39,7 @@ public class TestCity {
 		if (numpoeple < getNbpoeple() )
 		{
 			System.out.println("action impossible , on ne peut retirer d'habitants ");
+			System.out.println("resultat test si nombre saisi <= a zero.......");
 		}
 		else
 		{
@@ -47,11 +48,15 @@ public class TestCity {
 			setObjectCity(city);
 		}
 	}
-	
+//exo 1.3
+//	public String toString()
+//	{
+//		return  "city : " + this.city + "\n" +
+//				"country : " + this.country + "\n" +
+//				"nombre d'habitant : " + this.numberPoeple;
+//	}
 	public String toString()
 	{
-		return  "city : " + this.city + "\n" +
-				"country : " + this.country + "\n" +
-				"nombre d'habitant : " + this.numberPoeple;
+		return "Syso : ville de " + this.city + " a un nombre de " + this.numberPoeple + " habitants";
 	}
 }
