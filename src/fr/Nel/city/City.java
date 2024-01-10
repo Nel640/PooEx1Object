@@ -4,7 +4,7 @@ public class City
 {
 	public static void main(String[] args) 
 	{
-		TestCity soustons = new TestCity( "soustons" , "france" , 2000 , 2);
+		TestCity soustons = new TestCity( "soustons" , "france" , 2000 , 1);
 //exo1.1		System.out.println("ville n°1 : \n" + city1 + "\n");
 //exo1.1		System.out.println("...............................");
 		
@@ -26,13 +26,13 @@ public class City
 		
 //exo1.2		toulouse.setaddpoeple(-15000, city2);
 		
-		Unknow unknow1 = new Unknow("toulouse");
+		Unknow1trois unknow1 = new Unknow1trois("toulouse");
 //exo1.3		unknow1.display();
 //exo1.3		unknow1.getCountry("france");
 //exo1.3		System.out.println("...............................");
-//exo1.3		unknow1.display();
+		unknow1.display();
 //exo1.3		System.out.println("...............................");
-//exo1.3		unknow1.display2();
+		unknow1.display2();
 //exo1.3		System.out.println("...............................");
 //exo1.5 et 1.6		System.out.println(toulouse); // ca appel automatiquement la methode tostring() pour afficher
 		

@@ -1,20 +1,21 @@
 package fr.Nel.city;
 
-public class Unknow 
+public class Unknow1trois 
 {
 	public String city;
 	public String country;
 	public int resident;
 	
 	private int Number_Of_Resident = 530000;
-	public Unknow ( String city )
+	
+	public Unknow1trois ( String city )
 	{
 		this.city = city;
 		this.country = "unknow";
 		this.resident = Number_Of_Resident;
 	}
 	
-	public Unknow()
+	public Unknow1trois()
 	{
 		this("unknow");
 	}

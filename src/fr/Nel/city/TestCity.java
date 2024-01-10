@@ -13,7 +13,7 @@ public class TestCity {
 		this.city = city;
 		this.country = country;
 		this.numberPoeple = numberPoeple;
-		COUNTER +=setCounter(count);
+		COUNTER += setCounter(count);
 	}
 	public int setCounter(int count) {
 		if ( count >= 0 )
