@@ -57,9 +57,13 @@ public class Person
 	
 	public static void displaySortCityandBorncity()
 	{
-		for( Object entry : personalitys)
+		for(int i = 0 ; i < personalitys.size() ; i++)
 		{
-			System.out.println(entry);
+			if (personalitys.get(i).adress.contains("paris") ||
+					personalitys.get(i).location.country.equals("France"))
+				{
+					System.out.println(personalitys.get(i));
+				}
 		}
 	}
 }

@@ -20,18 +20,7 @@ public class TestPerson {
 //		System.out.println(manu);
 //		System.out.println(puti);
 //		System.out.println(biden);
-		
-//		personalitys.add(manu);
-//		personalitys.add(sarko);
-//		personalitys.add(boris);
-//		personalitys.add(gege);
-//		personalitys.add(lenny);
-//		personalitys.add(jenny);
-//		
-//		for( Object entry : personalitys)
-//		{
-//			System.out.println(entry);
-//		}
+
 		Person.addPerson(manu);
 		Person.addPerson(sarko);
 		Person.addPerson(boris);
