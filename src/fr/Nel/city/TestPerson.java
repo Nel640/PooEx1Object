@@ -4,8 +4,12 @@ public class TestPerson {
 
 	public static void main(String[] args) {
 		Person manu = new Person("Manu" , "macron" , 78 , "champs elizee");
-		Person puti = new Person();
+		Person puti = new Person("putine" , "vlad" , 68);
+		Person biden = new Person("biden" , "joe");
+		
+		System.out.println(manu);
 		System.out.println(puti);
+		System.out.println(biden);
 	}
 
 }

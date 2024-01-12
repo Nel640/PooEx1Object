@@ -7,19 +7,36 @@ public class Person
 	int age;
 	String adress;
 	
-	public Person ( String fisrtNam , String lastName , int age , String adress)
+	final int Unknow_AGE = 0;
+	
+	public Person ( String fisrtName , String lastName , int age , String adress )
 	{
-		setFirstName(fisrtNam);
-		setLastName(lastName);
-		this.age = 0;
-		setAdress(adress);
+		this.firstName = fisrtName;
+		this.lastName = lastName;
+		this.age = age;
+		this.adress = adress;
+	}
+	
+	public Person ( String firstName , String lastName , int age)
+	{
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.adress = "unknow";
+	}
+	
+	public Person ( String firstName , String lastName)
+	{
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = Unknow_AGE;
+		this.adress = "unknow";
 	}
 	
 	public Person ()
 	{
-		this("unknow", "unknow" , 0 , "unknow");
+		this("unknow" , "unknow" , 0 , "unknow");
 	}
-	
 	
 	public String toString()
 	{
