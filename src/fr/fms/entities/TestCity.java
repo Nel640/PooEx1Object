@@ -1,18 +1,18 @@
-package fr.Nel.city;
+package fr.fms.entities;
 
-public class City 
+public class TestCity 
 {
 	public static void main(String[] args) 
 	{
-		TestCity soustons = new TestCity( "soustons" , "france" , 2000 , 1);
+		City soustons = new City( "soustons" , "france" , 2000 , 1);
 //exo1.1		System.out.println("ville n°1 : \n" + city1 + "\n");
 //exo1.1		System.out.println("...............................");
 		
-		TestCity toulouse = new TestCity ( "toulouse" , "france" , 10000 , 1);
+		City toulouse = new City ( "toulouse" , "france" , 10000 , 1);
 //exo1.1		System.out.println("ville n°2 : \n" + toulouse + "\n");
 //exo1.1		System.out.println("...............................");
 		
-		TestCity osaka = new TestCity("osaka", "japan", 500000 , 1);
+		City osaka = new City("osaka", "japan", 500000 , 1);
 //exo1.1		System.out.println("ville n°3 : \n" + city3+ "\n");
 //exo1.1		System.out.println("...............................");
 //exo1.1		
@@ -36,7 +36,7 @@ public class City
 //exo1.3		System.out.println("...............................");
 //exo1.5 et 1.6		System.out.println(toulouse); // ca appel automatiquement la methode tostring() pour afficher
 		
-		TestCity.displayCounter();
+		City.displayCounter();
 	}
 	
 

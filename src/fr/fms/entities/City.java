@@ -1,6 +1,6 @@
-package fr.Nel.city;
+package fr.fms.entities;
 
-public class TestCity {
+public class City {
 		
 	public String city;
 	public String country;
@@ -8,7 +8,7 @@ public class TestCity {
 	
 	private static int COUNTER = 0;
 	
-	public TestCity ( String city , String country , int numberPoeple , int count)
+	public City ( String city , String country , int numberPoeple , int count)
 	{
 		this.city = city;
 		this.country = country;
@@ -72,7 +72,7 @@ public class TestCity {
 	
 	public String toString()
 	{
-		return " city="+this.city + " country="+this.country + " nbResident="+this.numberPoeple;
+		return " city = "+this.city + " country = "+this.country + " nbResident = "+this.numberPoeple;
 	}
 	
 	public static void displayCounter()
