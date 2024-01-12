@@ -65,9 +65,14 @@ public class TestCity {
 //				"country : " + this.country + "\n" +
 //				"nombre d'habitant : " + this.numberPoeple;
 //	}
+//	public String toString()
+//	{
+//		return "Syso : ville de " + this.city + " a un nombre de " + this.numberPoeple + " habitants";
+//	}
+	
 	public String toString()
 	{
-		return "Syso : ville de " + this.city + " a un nombre de " + this.numberPoeple + " habitants";
+		return " city="+this.city + " country="+this.country + " nbResident="+this.numberPoeple;
 	}
 	
 	public static void displayCounter()
