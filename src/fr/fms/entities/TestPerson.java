@@ -1,7 +1,5 @@
 package fr.fms.entities;
 
-import java.util.ArrayList;
-
 public class TestPerson {
 
 	public static void main(String[] args) {

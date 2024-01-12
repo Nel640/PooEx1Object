@@ -1,5 +1,4 @@
 package fr.fms.entities;
-
 import java.util.ArrayList;
 
 public class Person 
@@ -61,9 +60,22 @@ public class Person
 		{
 			if (personalitys.get(i).adress.contains("paris") ||
 					personalitys.get(i).location.country.equals("France"))
+			{
+				Person personn = personalitys.get(i);
+				String sysPerson = personn.firstName + " , " + personn.lastName + " , " +
+						   personn.age + " , " + personn.adress + " , ville de naissance : " +
+						   personn.location.city + " , " + personn.location.country;
+				
+				if(personn.location.numberPoeple > 0)
 				{
-					System.out.println(personalitys.get(i));
+					System.out.println(sysPerson + " , population paris : " + 
+										personn.location.numberPoeple + " d'habitants");
 				}
+				else
+				{
+					System.out.println(sysPerson);
+				}
+			}
 		}
 	}
 }
